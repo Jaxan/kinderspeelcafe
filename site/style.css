@@ -1,0 +1,156 @@
+body {
+	font-family:'Helvetica Neue','Helvetica','Arial',sans-serif;
+	font-weight:300;
+	font-size:24px;
+	line-height:40px;
+	margin:0px;
+	padding:0px;
+}
+p {
+	margin:0px;
+}
+ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+li {
+	display:block;
+}
+div {
+	background-repeat: no-repeat;
+}
+h1 {
+	margin:0px 0px 20px 0px;
+	font-size:48px;
+	line-height:60px;
+	font-weight:300;
+}
+h2 {
+	margin:10px 0px 10px 0px;
+	font-size:30px;
+	line-height:40px;
+	font-weight:300;
+}
+.container {
+	width:100%;
+	max-width:800px;
+	margin: 0 auto;
+}
+.container > div {
+	margin: 10 10px;
+}
+.logo {
+	width: 740px;
+	height: 160px;
+	background-image: url('logo-wide@1X.png');
+	background-size: 100%;
+}
+@media (max-width: 740px){
+.logo {
+	width: 540px;
+	height: 180px;
+	background-image: url('logo-narrow@1X.png');
+}
+}
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(        min-device-pixel-ratio: 2),
+(                min-resolution: 192dpi),
+(                min-resolution: 2dppx) {
+.logo {
+	background-image: url('logo-wide@2X.png');
+}
+}
+@media
+(max-width: 740px) and (-webkit-min-device-pixel-ratio: 2),
+(max-width: 740px) and (        min-device-pixel-ratio: 2),
+(max-width: 740px) and (                min-resolution: 192dpi),
+(max-width: 740px) and (                min-resolution: 2dppx) {
+.logo{	background-image: url('logo-narrow@2X.png');}
+}
+@media (max-width: 540px) { .logo { width:100%; height:0px; padding-bottom:33%;} }
+.logo h1 {
+	display: none;
+}
+.notice {
+	border: 5px solid #d8127d;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+.header {
+	margin-bottom:20px;
+}
+.image {
+	background-size:auto 100%;
+	height:240px;
+}
+.left {
+	width:360px;
+	margin:0px 10px 20px 0px;
+	float:left;
+}
+.right {
+	width:360px;
+	margin:0px 0px 20px 10px;
+	float:right;
+}
+.main-navigation li {
+	margin-bottom:12px;
+}
+.main-navigation li:last-child {
+	margin-bottom:0px;
+}
+.main-navigation a {
+	display:block;
+	text-decoration:none;
+	padding: 5px 0px 0px 10px;
+	height:46px;
+	color:white;
+}
+.main-navigation a:visited {
+	color:white;
+}
+.main-navigation a::after {
+	display:inline-block;
+	float:right;
+	content:'';
+	height:0px;
+	width:0px;
+	margin:10px 10px 0px 0px;
+	border-top:10px solid transparent;
+	border-bottom:10px solid transparent;
+	border-left:10px solid white;
+}
+.clearfix {
+	clear:both;
+}
+@media (max-width: 760px) {
+.left,.right {
+	width:100%;
+        margin-bottom:20px;
+}
+.image {
+	height:0px;
+	padding-bottom:66%;
+}
+}
+.section {
+	margin-top:20px;
+}
+.bg1 { background-color: #d8127d; }
+.bg2 { background-color: #00a3da; }
+.bg3 { background-color: #e36b4f; }
+.bg4 { background-color: #6cb646; }
+.fg1 { color: #d8127d; }
+.fg2 { color: #00a3da; }
+.fg3 { color: #e36b4f; }
+.fg4 { color: #6cb646; }
+
+.long {
+	font-size:18px;
+	line-height:30px;
+}
+.main-carousel { background-image:url('speelgoed.jpg'); }
+.foto-overzicht { background-image:url('impressie-2.jpg'); }
+.foto-activiteit { background-image:url('fruit.jpg'); }
