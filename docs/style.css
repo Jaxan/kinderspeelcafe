@@ -3,7 +3,6 @@ body {
 	font-weight:300;
 	font-size:24px;
 	line-height:40px;
-	margin:0px;
 	padding:0px;
 }
 p {
@@ -13,9 +12,6 @@ ul {
 	list-style:none;
 	padding:0px;
 	margin:0px;
-}
-li {
-	display:block;
 }
 div {
 	background-repeat: no-repeat;
@@ -34,17 +30,15 @@ h2 {
 }
 .container {
 	width:100%;
-	max-width:800px;
+	max-width:780px;
 	margin: 0 auto;
-}
-.container > div {
-	margin: 10 10px;
 }
 .logo {
 	width: 740px;
 	height: 160px;
 	background-image: url('logo-wide@1X.png');
 	background-size: 100%;
+	margin: auto;
 }
 @media (max-width: 740px){
 .logo {
@@ -78,8 +72,13 @@ h2 {
 	margin-bottom: 20px;
 	padding: 20px;
 }
-.header {
+header {
 	margin-bottom:20px;
+}
+footer {
+	margin-top:20px;
+	font-size:60%;
+	color:#777;
 }
 .image {
 	background-size:auto 100%;
@@ -151,6 +150,6 @@ h2 {
 	font-size:18px;
 	line-height:30px;
 }
-.main-carousel { background-image:url('speelgoed.jpg'); }
-.foto-overzicht { background-image:url('impressie-2.jpg'); }
-.foto-activiteit { background-image:url('fruit.jpg'); }
+.main-carousel { background-image:url('plaatjes/ruimte.jpg'); }
+.foto-overzicht { background-image:url('plaatjes/actie.jpg'); }
+.foto-activiteit { background-image:url('plaatjes/kindje.jpg'); }
